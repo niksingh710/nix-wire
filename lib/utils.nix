@@ -282,7 +282,6 @@ let
               };
               nix.package = lib.mkDefault pkgs.nix;
             }
-            commonNix
           ];
         };
     };
